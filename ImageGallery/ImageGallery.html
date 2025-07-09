@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>#Hashtag Image Gallery</title>
+  <link rel="stylesheet" href="ImageGallery.css" />
+</head>
+<body>
+  <aside class="sidebar">
+    <h2>Image Gallery</h2>
+    <div class="hashtag" data-category="all">All📸</div>
+    <div class="hashtag" data-category="nature">Nature🌄</div>
+    <div class="hashtag" data-category="animals">Animals🦁</div>
+    <div class="hashtag" data-category="city">City🌆</div>
+    <div class="hashtag" data-category="birds">Birds🦚</div>
+  </aside>
+
+  <main class="gallery-container">
+    <section class="gallery" id="gallery">
+      <!-- Nature -->
+      <img src="Nature1.jpeg" class="image nature" alt="Nature" />
+      <img src="Nature2.jpeg" class="image nature" alt="Nature" />
+
+      <!--Animals-->
+      <img src="Animal 1.png" class="image Animals" alt="Animals" />
+      <img src="Animal 2.png" class="image Animals" alt="Animals" />
+
+      <!-- City -->
+      <img src="City 1.jpeg" class="image city" alt="City" />
+      <img src="City 2.jpeg" class="image city" alt="City" />
+
+      <!-- Birds -->
+      <img src="Bird 1.jpeg" class="image birds" alt="Birds" />
+      <img src="Bird 2.jpeg" class="image birds" alt="Birds" />
+    </section>
+  </main>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <span class="close" onclick="closeLightbox()">×</span>
+    <img id="lightbox-image" src="" alt="Preview" />
+    <div class="nav">
+      <button id="prev" class="arrow-btn">⟵</button>
+      <button id="next" class="arrow-btn">⟶</button>
+    </div>
+  </div>
+
+  <script src="ImageGallery.js"></script>
+</body>
+</html>
