@@ -27,7 +27,7 @@ Image-Gallery/
 ├── Nature1.jpeg, Animal1.jpeg, City1.jpeg, ...
 ```
 
-#### 🎥 [Live Demo](https://drive.google.com/file/d/1In7-Uz1rGJuUNUD2N9vC03e-28gLYkR6/view?usp=drivesdk)
+#### 🎥 [Live Demo](https://drive.google.com/file/d/1K6-mRoEjVfKIhLQ4b-MosOcS_UrM_S7K/view?usp=drivesdk)
 
 ---
 
@@ -55,7 +55,7 @@ MusicPlayer.ee/
 ├── /songs/
 ```
 
-#### 🎥 [Live Demo](https://drive.google.com/file/d/1IhCx0QnT6To7OfdK-3Z6RARBs6KrFtT6/view?usp=drivesdk)
+#### 🎥 [Live Demo](https://drive.google.com/file/d/1Jeb-J2qSTlNFWSIj4bWHCnrFgp6Uwuv1/view?usp=drivesdk)
 
 ---
 
